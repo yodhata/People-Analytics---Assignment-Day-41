@@ -17,7 +17,7 @@ st.set_page_config(
 # Load dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv("/Users/yodhapranata/Documents/UT/BootCamp/STREAMLIT/Data/employee_survey.csv")
+    return pd.read_csv("Data/employee_survey.csv")
 
 df = load_data()
 df.columns = df.columns.str.lower().str.replace(' ', '_')
@@ -326,6 +326,6 @@ else:
 
 - Evaluasi dan batasi lembur pada department dengan persentase low satisfaction tinggi.  
 - Perkuat program work-life balance dan dukungan kesehatan mental.  
-- Sediakan jalur karier dan peluang pengembangan yang jelas terutama bagi Level pendidikan yang tinggi.  
+- Sediakan jalur karier dan peluang pengembangan yang jelas terutama bagi Level pendidikan yanggit tinggi.  
 - Jadikan dashboard ini alat monitoring rutin untuk mendeteksi risiko lebih awal.
     """)
