@@ -4,56 +4,63 @@ https://people-analytics-assignment-day-41.streamlit.app
 
 Dashboard ini dibuat sebagai latihan People Analytics menggunakan Streamlit. Aplikasi ini membantu HR dan manajemen memahami kondisi karyawan, faktor-faktor yang memengaruhi kepuasan kerja, serta area berisiko yang perlu intervensi.
 
-Tujuan Project
+**Tujuan Project**
 	1.	Menyajikan gambaran profil tenaga kerja secara ringkas dan interaktif.
 	2.	Mengidentifikasi hubungan antara wellbeing, lembur, stress, dan job satisfaction.
 	3.	Menemukan segmen karyawan berisiko rendah kepuasan kerja sebagai dasar rekomendasi kebijakan HR.
 	4.	Menunjukkan implementasi dasar Streamlit (text, input, layout, metric, chart, table) sebagai portfolio data scientist.
 
 
-Fitur Utama
+**Fitur Utama**
 
-1. Executive Overview
-	•	Ringkasan metrik utama:
-	•	Total karyawan
-	•	Rata-rata Job Satisfaction
-	•	Rata-rata Stress
-	•	Rata-rata Work-Life Balance (WLB)
-	•	Komposisi karyawan:
-	•	Distribusi gender
-	•	Jumlah karyawan per department
-	•	Rata-rata Job Satisfaction per department
+**1. Executive Overview**
 
-2. Wellbeing & Workload
-	•	Metrik:
-	•	Rata-rata jam tidur
-	•	Rata-rata workload
-	•	Persentase karyawan lembur (haveOT = True)
-	•	Visualisasi:
-	•	Job Satisfaction vs Work-Life Balance
-	•	Job Satisfaction vs Stress Level
-	•	Rata-rata Job Satisfaction: Lembur vs Tidak Lembur
-	•	Persentase karyawan lembur per department
+Ringkasan metrik utama:
+- Total karyawan
+- Rata-rata Job Satisfaction
+- Rata-rata Stress
+- Rata-rata Work-Life Balance (WLB)
 
-3. Risk & Segmentation
-	•	Flag Low Satisfaction (JobSatisfaction ≤ 3).
-	•	Persentase karyawan low satisfaction secara keseluruhan.
-	•	Distribusi low satisfaction:
-	•	per department
-	•	per job level
-	•	Membantu mengidentifikasi segmen yang perlu prioritas intervensi.
+Komposisi karyawan:
+- Distribusi gender
+- Jumlah karyawan per department
+- Rata-rata Job Satisfaction per department
 
-4. Actions & Playbook
-	•	Ringkasan insight analitik:
-	•	Dampak stress, WLB, dan lembur terhadap kepuasan kerja.
-	•	Perbedaan antar department dan job level.
-	•	Rekomendasi strategis berbasis data:
-	•	Manajemen lembur.
-	•	Program work-life balance & wellbeing.
-	•	Pengembangan karier dan monitoring berkelanjutan.
+**2. Wellbeing & Workload**
+
+Metrik:
+- Rata-rata jam tidur
+- Rata-rata workload
+- Persentase karyawan lembur
+
+Visualisasi:
+- Job Satisfaction vs Work-Life Balance
+- Job Satisfaction vs Stress Level
+- Rata-rata Job Satisfaction: Lembur vs Tidak Lembur
+- Persentase karyawan lembur per department
+
+**5. Risk & Segmentation**
+- Flag Low Satisfaction (JobSatisfaction ≤ 3).
+- Persentase karyawan low satisfaction secara keseluruhan.
+
+Distribusi low satisfaction:
+- per department
+- per job level
+- Membantu mengidentifikasi segmen yang perlu prioritas intervensi.
+
+**7. Actions & Playbook**
+
+Ringkasan insight analitik:
+- Dampak stress, WLB, dan lembur terhadap kepuasan kerja.
+- Perbedaan antar department dan job level.
+
+Rekomendasi strategis berbasis data:
+- Manajemen lembur.
+- Program work-life balance & wellbeing.
+- Pengembangan karier dan monitoring berkelanjutan.
 
 
-Dataset
+**Dataset**
 
 File: employee_survey.csv
 Contoh kolom utama (setelah preprocessing lowercase dan ganti spasi):
